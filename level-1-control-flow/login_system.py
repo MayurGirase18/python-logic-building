@@ -22,17 +22,29 @@ account locked message
 stored_username = "mayur18"
 stored_password = "pass123"
 
-username = input("Enter the username: ")
-password = input("Enter your password: ")
+attempt = 3
 
-if username == stored_username and password == stored_password:
-    print("Login Successfull.")
+while attempt > 0: 
+    username = input("Enter the username: ")
+    password = input("Enter your password: ")
 
-elif username != stored_username and password == stored_password:
-    print("Incorrect Username!!")
+    if username == stored_username and password == stored_password:
+        print("Login Successfull.")
+        break
 
-elif username == stored_username and password != stored_password:
-    print("Incorrect Password!!")
+    else:
+        attempt-=1
+        if username != stored_username and password == stored_password:
+            print("Incorrect Username!!")
+            print(f"Remaining Attempts: {attempt}")
 
-else:
-    print("Username & Password are wrong!!")
+        elif username == stored_username and password != stored_password:
+            print("Incorrect Password!!")
+            print(f"Remaining Attempts: {attempt}")
+
+        else:
+            print("Username & Password are wrong!!")
+            print(f"Remaining Attempts: {attempt}")
+
+if attempt == 0:
+    print("Account blocked...")
