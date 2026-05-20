@@ -1,4 +1,5 @@
-''' PROBLEM 1 — Smart Age Checker
+"""
+ PROBLEM 1 — Smart Age Checker
 Problem
 
 Take age input and print:
@@ -11,9 +12,9 @@ senior citizen
 Also validate:
 
 negative age
-age > 120 '''
+age > 120 
 
-
+"""
 
 age = int(input("Enter your age: "))
 print("Your age: ", age)
