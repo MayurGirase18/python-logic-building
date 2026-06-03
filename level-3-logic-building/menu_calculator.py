@@ -14,8 +14,6 @@ Exit
 
 print("--- Simple Calculator ---")
 
-choice = 0
-
 while True:
     print("\n--- Menu ---")
     print("1.Add\n2.Subtract\n3.Multiply\n4.Divide\n5.Exit\n")
