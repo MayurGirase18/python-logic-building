@@ -18,7 +18,7 @@ pi = 3.14159265
 large_number = 1000000000
 percentage = 0.756
 
-print(f"PI: {pi:.2f}")      # PI: 3.14
+print(f"PI: {pi:.2f}")                      # PI: 3.14
 print(f"Population: {large_number:,}")      # Population: 1,000,000,000
 print(f"Accuracy: {percentage:.1%}")        # Accuracy: 75.6%
 
@@ -35,7 +35,7 @@ x = 10
 y = 15
 
 # Return both the variable name and its value
-print(f"{x=}")      # x=10
+print(f"{x=}")          # x=10
 
 # It also works with expressions
 print(f"{x + y = }")    # x + y = 25
