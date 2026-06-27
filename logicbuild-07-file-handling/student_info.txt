@@ -1,0 +1,5 @@
+Name: Mayur
+Age: 20
+Branch: CSE
+
+New Data: This is the append at the last.
