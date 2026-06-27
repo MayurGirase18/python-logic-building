@@ -1,0 +1,5 @@
+Student 1 marks: 95.0
+Student 2 marks: 96.32
+Student 3 marks: 94.31
+Student 4 marks: 92.2
+Student 5 marks: 85.63
